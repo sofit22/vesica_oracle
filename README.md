@@ -1,8 +1,6 @@
 # ✦ Vesica Oracle ✦
 
-An interactive and mystical Love Tarot web experience, designed with a strong focus on micro-interactions, fluid animations, and immersive audio synthesis.
-
-Vesica is more than just a digital oracle; it is a piece of editorial design and creative development aimed at helping users connect with their intuition through a high-end interface, subtle visual textures, and 3D animations.
+A minimalist and interactive Love Tarot web application. Designed with a clean editorial UI, featuring subtle CSS micro-interactions and native audio feedback to enhance the user experience.
 
 ## 📖 The Story Behind Vesica
 
@@ -10,24 +8,17 @@ The concept for this app was born from a very personal place. I have a close fri
 
 ## ✨ Key Features
 
-* **Immersive 3D Experience:** Interactive cards with realistic 3D flip animations and perspective.
-* **Visual Choreography:** Cascading entrance animations and precise, timed bursts of mystical particles using advanced staggering.
-* **Native Sound Design:** Real-time synthesized audio effects using the Web Audio API (mechanical clicks and revealing chimes) perfectly synchronized with the GSAP animations.
-* **High-End Aesthetics:** A dark, minimalist UI featuring editorial typography (Cormorant Garamond, Cinzel) and a sophisticated color palette (Burgundy, Gold, and Cream).
-* **Dynamic Oracle:** Randomized card selection and dynamic meanings to ensure a unique reading every time.
+* **Interactive UI:** Smooth CSS-based card flips and hover states for a clean, tactile feel.
+* **Audio Feedback:** Subtle mechanical click sounds and chimes built natively with the Web Audio API to provide immediate interaction feedback.
+* **Editorial Aesthetic:** A dark, minimal theme utilizing typography-focused design (Cormorant Garamond, Cinzel) and a custom color palette.
+* **Dynamic Readings:** Randomized card draws from a custom data structure to ensure a unique reading every time.
 
 ## 🛠️ Tech Stack
 
-This project was built using modern tools to ensure optimal performance and professional-grade animations:
-
-* **[React](https://reactjs.org/):** Component-based architecture and state management.
-* **[Vite](https://vitejs.dev/):** Ultra-fast development environment and modern bundler.
-* **[Tailwind CSS](https://tailwindcss.com/):** Utility-first CSS framework for agile, responsive styling.
-* **[GSAP (GreenSock)](https://greensock.com/):** Industry-standard animation engine handling the entrance choreography, particle physics, and 3D rotations.
+* **Frontend:** React, Vite, Tailwind CSS.
+* **Interactions & Logic:** Vanilla JavaScript, CSS Transitions, Web Audio API.
 
 ## 🚀 Installation & Local Setup
-
-If you want to clone this repository and run it locally:
 
 1. Clone the repository:
    ```bash
