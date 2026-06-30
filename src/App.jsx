@@ -130,6 +130,7 @@ const TAROT_DECK = [
     emoji: "🎡",
     keyword: "Ciclos",
     color: "#6b5a8a",
+    imgUrl: imagenRueda,
     meanings: [
       "Los ciclos del amor giran. Lo que ahora parece estancado está por moverse. Confiá en que esta fase es parte del viaje, no el final.",
       "Algo termina para que algo nuevo empiece. No te aferres a la versión vieja de tu historia. La rueda gira y te lleva a donde necesitás ir.",
