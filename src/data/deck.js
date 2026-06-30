@@ -1,3 +1,4 @@
+import imagenRueda from '../assets/ruedadelafortuna.png';
 export const TAROT_DECK = [
   {
     numeral: '0',
@@ -58,7 +59,7 @@ export const TAROT_DECK = [
     name: 'La Rueda de la Fortuna',
     emoji: '🔄',
     keyword: 'Destino y Ciclos',
-    imgUrl: '../assets/ruedadelafortuna.png',
+    imgUrl: 'imagenRueda',
     meaning:
       'El amor está en constante movimiento. La rueda gira para recordarte que los ciclos cambian y la evolución es inevitable. Fluí con el ritmo del destino sin aferrarte al pasado.',
   },
