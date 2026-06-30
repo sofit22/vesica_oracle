@@ -503,7 +503,7 @@ const IllustrationPlaceholder = ({ card }) => (
           </div>
           <div
             style={{
-              fontFamily: "'Instrument Serif',serif",
+              fontFamily: "'redaction',sans-serif",
               fontSize: 10,
               letterSpacing: 4,
               textTransform: "uppercase",
@@ -687,7 +687,7 @@ const ExpandedCard = ({ card, meaning, onClose, show }) => {
               background: "none",
               border: "none",
               cursor: "pointer",
-              fontFamily: "'Instrument Serif',serif",
+              fontFamily: "'redaction',sans-serif",
               fontSize: 11,
               letterSpacing: 3,
               color: "#8a7433",
@@ -703,7 +703,7 @@ const ExpandedCard = ({ card, meaning, onClose, show }) => {
 
           <div
             style={{
-              fontFamily: "'Instrument Serif',serif",
+              fontFamily: "'redaction',sans-serif",
               fontSize: 11,
               letterSpacing: 5,
               color: "#8a7433",
@@ -716,7 +716,7 @@ const ExpandedCard = ({ card, meaning, onClose, show }) => {
 
           <h2
             style={{
-              fontFamily: "'Instrument Serif',serif",
+              fontFamily: "'redaction',sans-serif",
               fontSize: "clamp(24px,3.5vw,36px)",
               fontWeight: 400,
               color: "#c9a84c",
@@ -729,7 +729,7 @@ const ExpandedCard = ({ card, meaning, onClose, show }) => {
 
           <div
             style={{
-              fontFamily: "'Instrument Serif',serif",
+              fontFamily: "'redaction',sans-serif",
               fontSize: 11,
               letterSpacing: 4,
               textTransform: "uppercase",
@@ -899,8 +899,9 @@ export default function TarotApp() {
         overflow: "hidden",
       }}
     >
+      <link rel="stylesheet" href="https://use.typekit.net/mrc1ksp.css" />
       <link
-        href="https://fonts.googleapis.com/css2?family=Neue+Haas+Grotesk:wght@400;500;700&family=Instrument+Serif:ital@0;1&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Neue+Haas+Grotesk:wght@400;500;700&display=swap"
         rel="stylesheet"
       />
 
@@ -988,7 +989,7 @@ export default function TarotApp() {
         >
           <div
             style={{
-              fontFamily: "'Instrument Serif',serif",
+              fontFamily: "'redaction',sans-serif",
               fontSize: 14,
               letterSpacing: 8,
               textTransform: "uppercase",
@@ -1000,7 +1001,7 @@ export default function TarotApp() {
           </div>
           <h1
             style={{
-              fontFamily: "'Instrument Serif',serif",
+              fontFamily: "'redaction',sans-serif",
               fontSize: "clamp(32px,6vw,56px)",
               fontWeight: 400,
               color: "#e8dcc8",
@@ -1051,7 +1052,7 @@ export default function TarotApp() {
             color: "#8a4a50",
             letterSpacing: 3,
             textTransform: "uppercase",
-            fontFamily: "'Instrument Serif',serif",
+            fontFamily: "'redaction',sans-serif",
             marginBottom: 40,
             animation: "fadeUp 1.2s ease 0.3s both",
           }}
@@ -1086,7 +1087,7 @@ export default function TarotApp() {
               background: "none",
               border: "1px solid #8a7433",
               color: "#8a7433",
-              fontFamily: "'Instrument Serif',serif",
+              fontFamily: "'redaction',sans-serif",
               fontSize: 12,
               letterSpacing: 4,
               textTransform: "uppercase",

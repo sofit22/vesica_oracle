@@ -3,8 +3,8 @@
 /* Fuentes custom */
 @theme {
   --font-garamond: "Neue Haas Grotesk", sans-serif;
-  --font-cinzel: "Instrument Serif", serif;
-  --font-cinzel-deco: "Instrument Serif", serif;
+  --font-cinzel: "redaction", sans-serif;
+  --font-cinzel-deco: "redaction", sans-serif;
 }
 
 /* Ruido de fondo */
