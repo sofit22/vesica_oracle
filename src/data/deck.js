@@ -1,4 +1,4 @@
-import imagenRueda from '../assets/ruedadelafortuna.png';
+const imagenRueda = new URL('../assets/ruedadelafortuna.png', import.meta.url).href;
 export const TAROT_DECK = [
   {
     numeral: '0',
