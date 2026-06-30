@@ -643,7 +643,7 @@ const ExpandedCard = ({ card, meaning, onClose, show }) => {
           maxHeight: "88vh",
           borderRadius: 16,
           overflow: "hidden",
-          border: "1px solid rgba(201,168,76,0.25)",
+          border: "1px solid rgba(201,168,76,0.2)",
           boxShadow: `0 0 80px ${card.color}18, 0 20px 60px rgba(0,0,0,0.5)`,
           transform: show
             ? "scale(1) translateY(0)"
@@ -657,7 +657,7 @@ const ExpandedCard = ({ card, meaning, onClose, show }) => {
           style={{
             flex: "0 0 46%",
             minHeight: 400,
-            background: "rgba(240, 225, 233, 0.25)",,
+            background: "#0d090b",
             borderRight: "1px solid rgba(201,168,76,0.1)",
           }}
         >
@@ -669,7 +669,7 @@ const ExpandedCard = ({ card, meaning, onClose, show }) => {
           className="overlay-meaning"
           style={{
             flex: 1,
-            background: "rgba(240, 225, 233, 0.25)",
+            background: "#0d090b",
             padding: "44px 40px",
             display: "flex",
             flexDirection: "column",
@@ -690,7 +690,7 @@ const ExpandedCard = ({ card, meaning, onClose, show }) => {
               fontFamily: "'Cinzel',serif",
               fontSize: 11,
               letterSpacing: 3,
-              color: "#ff0000",
+              color: "#8a7433",
               textTransform: "uppercase",
               opacity: 0.5,
               transition: "opacity 0.3s",
