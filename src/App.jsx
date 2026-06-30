@@ -751,7 +751,7 @@ const ExpandedCard = ({ card, meaning, onClose, show }) => {
 
           <p
             style={{
-              fontFamily: "'Cormorant Garamond',serif",
+              fontFamily: "'Neue Haas Grotesk',sans-serif",
               fontSize: "clamp(16px,2vw,20px)",
               fontWeight: 300,
               lineHeight: 1.8,
@@ -894,13 +894,13 @@ export default function TarotApp() {
         minHeight: "100vh",
         background: "#0a0608",
         color: "#e8dcc8",
-        fontFamily: "'Cormorant Garamond',serif",
+        fontFamily: "'Neue Haas Grotesk',sans-serif",
         position: "relative",
         overflow: "hidden",
       }}
     >
       <link
-        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Instrument+Serif:ital@0;1&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Neue+Haas+Grotesk:wght@400;500;700&family=Instrument+Serif:ital@0;1&display=swap"
         rel="stylesheet"
       />
 
@@ -1015,7 +1015,7 @@ export default function TarotApp() {
               style={{
                 color: "#c9a84c",
                 fontStyle: "italic",
-                fontFamily: "'Cormorant Garamond',serif",
+                fontFamily: "'Neue Haas Grotesk',sans-serif",
                 fontWeight: 300,
               }}
             >
