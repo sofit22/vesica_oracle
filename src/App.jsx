@@ -1,6 +1,5 @@
 import { useState, useRef, useEffect, useCallback } from "react";
-import imagenRueda from "./assets/ruedadelafortuna.png";
-
+import imagenRueda from "../assets/ruedadelafortuna.png";
 /* ═══════════════════════════════════════════
    TAROT DECK — 18 cards × 3 meanings
    ═══════════════════════════════════════════ */

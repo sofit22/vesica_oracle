@@ -55,12 +55,13 @@ export const TAROT_DECK = [
       'Una decisión del corazón te espera. No se trata de perfección sino de autenticidad. Elegí lo que te haga sentir más vos, no lo que se vea bien desde afuera.',
   },
   {
-    numeral: 'X',
-    name: 'La Rueda de la Fortuna',
-    emoji: '🔄',
-    keyword: 'Destino y Ciclos',
-    imgUrl: imagenRueda,
-    meaning:
+  numeral: "X",
+  name: "La Rueda de la Fortuna",
+  emoji: "🎡",
+  keyword: "Cambio",
+  color: "#f59e0b",
+  imgUrl: imagenRueda,
+  meaning:
       'El amor está en constante movimiento. La rueda gira para recordarte que los ciclos cambian y la evolución es inevitable. Fluí con el ritmo del destino sin aferrarte al pasado.',
   },
   {
