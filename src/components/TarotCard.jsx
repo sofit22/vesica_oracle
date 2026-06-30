@@ -55,10 +55,10 @@ export default function TarotCard({ card, onSparkle, onHover, onClick }) {
           group-hover:border-[#c9a84c] group-hover:shadow-[0_8px_40px_rgba(201,168,76,0.12),0_0_60px_rgba(201,168,76,0.1)]"
         style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}
       >
-        <div className="font-cinzel text-[11px] tracking-[4px] text-[#8a7433] uppercase mb-1.5">
+        <div className="font-cinzel text-[11px] tracking-[4px] text-[#8a7433] uppercase mb-1.5" style={{ fontFamily: "'Instrument Serif', serif" }}>
           {card.numeral}
         </div>
-        <div className="font-cinzel-deco text-[16px] md:text-[20px] text-[#c9a84c] mb-1 leading-tight">
+        <div className="font-cinzel-deco text-[16px] md:text-[20px] text-[#c9a84c] mb-1 leading-tight" style={{ fontFamily: "'Instrument Serif', serif" }}>
           {card.name}
         </div>
 
