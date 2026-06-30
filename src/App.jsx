@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect, useCallback } from "react";
-import imagenRueda from './assets/ruedadelafortuna.png';
+import imagenRueda from "./assets/ruedadelafortuna.png";
 
 /* ═══════════════════════════════════════════
    TAROT DECK — 18 cards × 3 meanings
@@ -484,21 +484,39 @@ const IllustrationPlaceholder = ({ card }) => (
         backgroundSize: "40px 40px",
       }}
     />
-    <div style={{ fontSize: 72, marginBottom: 16, filter: "saturate(0.8)" }}>
-      {card.emoji}
-    </div>
-    <div
-      style={{
-        fontFamily: "'Cinzel',serif",
-        fontSize: 10,
-        letterSpacing: 4,
-        textTransform: "uppercase",
-        color: "#8a7433",
-        opacity: 0.5,
-      }}
-    >
-      tu ilustración acá
-    </div>
+   {card.imgUrl ? (
+        <img 
+          src={card.imgUrl} 
+          alt={card.name} 
+          style={{ 
+            maxWidth: '80%', 
+            maxHeight: '80%', 
+            objectFit: 'contain',
+            position: 'relative',
+            zIndex: 2
+          }} 
+        />
+      ) : (
+        <>
+          <div style={{ fontSize: 72, marginBottom: 16, filter: "saturate(0.8)", position: 'relative', zIndex: 2 }}>
+            {card.emoji}
+          </div>
+          <div
+            style={{
+              fontFamily: "'Cinzel',serif",
+              fontSize: 10,
+              letterSpacing: 4,
+              textTransform: "uppercase",
+              color: "#8a7433",
+              opacity: 0.5,
+              position: 'relative',
+              zIndex: 2
+            }}
+          >
+            tu ilustración acá
+          </div>
+        </>
+      )}
     {[
       { top: 12, left: 12 },
       { top: 12, right: 12 },
