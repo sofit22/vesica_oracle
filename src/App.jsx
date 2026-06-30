@@ -657,7 +657,7 @@ const ExpandedCard = ({ card, meaning, onClose, show }) => {
           style={{
             flex: "0 0 46%",
             minHeight: 400,
-            background: "#0d090b",
+            background: "rgba(240, 225, 233, 0.25)",,
             borderRight: "1px solid rgba(201,168,76,0.1)",
           }}
         >
@@ -669,7 +669,7 @@ const ExpandedCard = ({ card, meaning, onClose, show }) => {
           className="overlay-meaning"
           style={{
             flex: 1,
-            background: "#0d090b",
+            background: "rgba(240, 225, 233, 0.25)",
             padding: "44px 40px",
             display: "flex",
             flexDirection: "column",
@@ -690,7 +690,7 @@ const ExpandedCard = ({ card, meaning, onClose, show }) => {
               fontFamily: "'Cinzel',serif",
               fontSize: 11,
               letterSpacing: 3,
-              color: "#8a7433",
+              color: "#ff0000",
               textTransform: "uppercase",
               opacity: 0.5,
               transition: "opacity 0.3s",
