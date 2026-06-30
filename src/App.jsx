@@ -623,7 +623,7 @@ const ExpandedCard = ({ card, meaning, onClose, show }) => {
         position: "fixed",
         inset: 0,
         zIndex: 1000,
-        background: "rgba(5,3,4,0.9)",
+        background: "rgba(5,3,4,0.25)",
         backdropFilter: "blur(14px)",
         display: "flex",
         alignItems: "center",
@@ -643,7 +643,7 @@ const ExpandedCard = ({ card, meaning, onClose, show }) => {
           maxHeight: "88vh",
           borderRadius: 16,
           overflow: "hidden",
-          border: "1px solid rgba(201,168,76,0.2)",
+          border: "1px solid rgba(201,168,76,0.25)",
           boxShadow: `0 0 80px ${card.color}18, 0 20px 60px rgba(0,0,0,0.5)`,
           transform: show
             ? "scale(1) translateY(0)"
